@@ -34,8 +34,5 @@ nav {
 }
 
 .main-bg {
-    @include main-bg(url(../assets/img/jumbotron.jpg));
-}
-.main-bg {
     background-image: url(../resources/img/jumbotron.jpg);
 }
