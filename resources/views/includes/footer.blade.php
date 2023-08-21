@@ -1,5 +1,5 @@
 
-<div class="main-bg">
+<div class="footer-bg">
     @include ('includes.contacts')
     @include ('includes.contacts')
     
