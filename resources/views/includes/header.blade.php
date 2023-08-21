@@ -1,6 +1,6 @@
 <div class="container">
     <nav>
-      <img src="../assets/img/dc-logo.png" alt="logo">
+      <img src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="logo">
       <ul>
         <li><a href="#"></a>Characters</li>
         <li><a href="#"></a>Comics</li>
