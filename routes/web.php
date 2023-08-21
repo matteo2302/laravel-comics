@@ -17,8 +17,8 @@ Route::get('/', function () {
     $products=config('fumetti');
     return view('home',compact('products'));
 });
-Route::get('/product',function(){
+Route::get('/product/{index}',function($index){
     $products=config('fumetti');
-    $product= $products[0];
+    $product= $products[$index];
     return view('product',compact('product'));
-});
+})->name('product');

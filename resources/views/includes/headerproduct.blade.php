@@ -17,17 +17,19 @@
   </div>
   <div class="main-bg">
     <img src="{{ $product['thumb']}}">
-     <div>
+     <div class="flex">
      <div class="productdes">
      <h3>{{$product['title']}}</h3>
      <div class="price"></div>
      <p>{{$product['description']}}</p>
   </div>
+
     <div>
       <p>advertisement</p>
       <img src="{{ Vite::asset('resources/img/adv.jpg') }}" >
     </div>
   </div>
+</div>
 </div>
   <div class="container">
     <div>

@@ -2,7 +2,7 @@
   @foreach($products as $product)
   <div class="card">
     <img src="{{ $product['thumb']}}">
-    <a href="/product">{{$product['title']}}</a>
+    <a href="{{ route ('product',['index'=>$loop->index]) }}">{{$product['title']}}</a>
   </div>
   @endforeach
   
