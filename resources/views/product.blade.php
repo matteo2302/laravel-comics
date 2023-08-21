@@ -7,8 +7,8 @@
   <title>DC comics</title>
 </head>
 <body>
-  @include('includes.header')
   <div class="cards-container">
+  @include('includes.headerproduct')
 </div>
  @include('includes.shop')
 
